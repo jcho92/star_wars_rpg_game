@@ -1,8 +1,9 @@
 
 $(document).ready(function () {
-    var playAudio = new Audio('assets/starwars.mpeg');
-    playAudio.play();
-  
+   
+  function test(){
+      console.log("test")
+  }
     // variables for each character
     var thrawn = {
         name: 'Grand Admiral Thrawn',
@@ -54,9 +55,7 @@ $(document).ready(function () {
     var enemyAttack = [];
     var wins = 0;
 
-    $(".ackbar").mouseenter(function() {
-        audio.play();
-      });
+   
 
     // this section creats the character cards with their healths and stats
     for (i = 0; i < characterList.length; i++) {

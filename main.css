@@ -6,7 +6,7 @@ body{
     text-align: center;
 }
 .character-image{
-    width: 300px;
+    width: 200px;
     align: center;
     border:  solid 1px red;
 }
@@ -36,7 +36,6 @@ body{
    
 }
 .fight{
-    display: inline-block;
     text-align: center
 }
 p{
@@ -67,4 +66,19 @@ p{
     width: 100px;
     background: #000000;
     border: red solid 2px;
+}
+
+
+@media screen and (max-width:700px) {
+    .character-image{
+        width: 140px;
+        border:  solid 1px red;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .character-image{
+        width: 80px;
+        border:  solid 1px red;
+    }
 }
